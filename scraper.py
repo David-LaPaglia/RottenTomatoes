@@ -1,5 +1,5 @@
 # Load libraries
-import json, datetime, time, os
+import json, datetime, time, os, requests
 from bs4 import BeautifulSoup
 
 # Record the current time
