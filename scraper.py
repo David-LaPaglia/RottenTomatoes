@@ -1,5 +1,10 @@
 # Load libraries
+<<<<<<< Updated upstream
 import json, datetime, time, os, requests
+=======
+import json, datetime, time, os,requests
+
+>>>>>>> Stashed changes
 from bs4 import BeautifulSoup
 
 # Record the current time
