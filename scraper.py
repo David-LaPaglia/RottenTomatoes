@@ -47,17 +47,30 @@ def parse_data(soup, ts):
 
 def update_data(filename, data):
     """
-    Append a dictionary to a list of dictionaries in a JSON file.
+    A function for appending a dictionary to a list of dictionaries in a JSON file.
+
+    filename - The name of the file to create/update
+    data - The dictionary to be appended to the file
     """
     if os.path.exists(filename):
-        with open(filename, 'r', encoding='utf-8') as f:
-            data_list = json.load(f)
-        data_list.append(data)
+        try:
+            # Open and load existing data
+            with open(filename, 'r', encoding='utf-8') as f:
+                content = f.read().strip()  # Strip any extra whitespace
+                data_list = json.loads(content) if content else []  # Handle empty files
+        except (json.JSONDecodeError, ValueError) as e:
+            print(f"Error reading JSON file: {e}. Starting with an empty list.")
+            data_list = []
     else:
-        data_list = [data]
-    
+        data_list = []
+
+    # Append the new data
+    data_list.append(data)
+
+    # Write updated data back to the file
     with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(data_list, f)
+        json.dump(data_list, f, indent=4)
+
 
 def main():
     """
