@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 current_timestamp = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
 
 # Retrieve movie URL from environment variable or fallback
-movie_url = os.getenv('MOVIE_URL', 'https://www.rottentomatoes.com/m/venom_the_last_dance')
+movie_url = os.getenv('MOVIE_URL', 'https://www.rottentomatoes.com/m/den_of_thieves_2_pantera')
 
 def rotten_tomatoes_soup(url):
     """
