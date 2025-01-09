@@ -13,27 +13,49 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ['3.10']
+        python-version: ['3.11']
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          
       - name: Scrape data
         run: |
           python scraper.py
-      - name: commit
+          
+      - name: Verify Output
+        run: |
+          echo "Contents of data.json:"
+          cat data.json
+
+          
+      - name: Configure Git
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "Scraping script"
-          git config user.email "bkeegan@gmail.com"
-          git pull
-          git add *
-          git commit -m "New data"
-          git push
+          git config user.email "david.lapaglia@colorado.com"
+
+          
+      - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git pull --rebase
+          git add data.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "New data: $(date -u +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi

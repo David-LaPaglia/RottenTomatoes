@@ -7,10 +7,361 @@
         "audience_count": "0 Verified Ratings"
     },
     {
+<<<<<<< HEAD
         "timestamp": "2025-01-09T14:13:43",
         "critics_score": "",
         "critics_count": "0 Reviews",
         "audience_score": "",
         "audience_count": "0 Verified Ratings"
+=======
+        "timestamp": "2024-11-21T18:48:05",
+        "critics_score": "40%",
+        "critics_count": "204 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-11-22T04:29:47",
+        "critics_score": "40%",
+        "critics_count": "204 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-11-23T04:28:51",
+        "critics_score": "40%",
+        "critics_count": "206 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-11-24T04:28:43",
+        "critics_score": "41%",
+        "critics_count": "207 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-11-25T04:30:20",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-11-26T04:29:57",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-11-27T04:30:26",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-11-28T04:31:18",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-11-29T04:30:41",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-11-30T04:29:13",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-01T04:31:24",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-02T04:31:18",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-03T04:31:09",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-04T04:30:38",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-05T04:30:59",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-06T04:30:34",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-07T04:30:00",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-08T04:29:48",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-09T04:31:16",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-10T04:30:53",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-11T04:31:09",
+        "critics_score": "41%",
+        "critics_count": "208 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-12T04:31:09",
+        "critics_score": "41%",
+        "critics_count": "209 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-13T04:30:42",
+        "critics_score": "41%",
+        "critics_count": "210 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-14T04:29:36",
+        "critics_score": "41%",
+        "critics_count": "210 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-15T04:29:36",
+        "critics_score": "41%",
+        "critics_count": "210 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-16T04:31:24",
+        "critics_score": "41%",
+        "critics_count": "210 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-17T04:30:40",
+        "critics_score": "41%",
+        "critics_count": "210 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-18T04:29:07",
+        "critics_score": "41%",
+        "critics_count": "210 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-19T04:29:37",
+        "critics_score": "41%",
+        "critics_count": "210 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-20T04:28:20",
+        "critics_score": "41%",
+        "critics_count": "210 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-21T04:27:29",
+        "critics_score": "41%",
+        "critics_count": "210 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-22T04:27:01",
+        "critics_score": "41%",
+        "critics_count": "210 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-23T04:28:27",
+        "critics_score": "41%",
+        "critics_count": "210 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-24T04:28:07",
+        "critics_score": "41%",
+        "critics_count": "210 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-25T04:28:11",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-26T04:28:20",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-27T04:27:53",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-28T04:27:29",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-29T04:27:31",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-30T04:28:15",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2024-12-31T04:27:56",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2025-01-01T04:28:32",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2025-01-02T04:28:10",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2025-01-03T04:27:59",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2025-01-04T04:27:16",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "80%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2025-01-05T04:27:12",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2025-01-06T04:28:43",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2025-01-07T04:27:25",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2025-01-08T04:28:16",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+    },
+    {
+        "timestamp": "2025-01-09T04:27:57",
+        "critics_score": "41%",
+        "critics_count": "211 Reviews",
+        "audience_score": "81%",
+        "audience_count": "5,000+ Verified Ratings"
+>>>>>>> 320eb6e226b0a317f1678c75bbb866fb46a56040
     }
 ]
