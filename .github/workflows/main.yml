@@ -21,7 +21,6 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -29,11 +28,15 @@ jobs:
       - name: Scrape data
         run: |
           python scraper.py
-      - name: commit
+      - name: Configure Git
         run: |
           git config user.name "Scraping script"
           git config user.email "david.lapaglia@colorado.edu"
+      - name: Commit and push changes
+        run: |
           git pull
           git add *
           git commit -m "New data"
-          git push
+          git push https://<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>@github.com/David-LaPaglia/RottenTomatoes.git
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
