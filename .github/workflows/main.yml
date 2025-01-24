@@ -37,6 +37,7 @@ jobs:
           git pull
           git add *
           git commit -m "New data"
-          git push https://<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>@github.com/David-LaPaglia/RottenTomatoes.git
+          git push https://David-LaPaglia:${{ secrets.PAT_TOKEN }}@github.com/username/repository.git HEAD:main
+          #git push https://<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>@github.com/David-LaPaglia/RottenTomatoes.git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
