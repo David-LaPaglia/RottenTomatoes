@@ -1,38 +1,39 @@
-# .github/workflows/main.yml
 name: Scraping Rotten Tomatoes
 
-on: [push, pull_request]
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 */1 * * *'
+
+permissions:
+  contents: write 
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10']
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-    
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-
-    - name: Run scraper
-      run: python scraper.py
-
-    - name: Configure Git
-      run: |
-        git config user.name "Scraping script"
-        git config user.email "bkeegan@gmail.com"
-
-    - name: Commit and push changes
-      run: |
-        git add *
-        git commit -m "New data"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v3
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Scrape data
+        run: |
+          python scraper.py
+      - name: commit
+        run: |
+          git config user.name "Scraping script"
+          git config user.email "bkeegan@gmail.com"
+          git pull
+          git add *
+          git commit -m "New data"
+          git push
