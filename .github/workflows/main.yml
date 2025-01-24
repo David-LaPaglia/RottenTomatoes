@@ -29,15 +29,6 @@ jobs:
         git config user.name "Scraping script"
         git config user.email "bkeegan@gmail.com"
 
-    - name: Stash changes
-      run: git stash
-
-    - name: Pull latest changes
-      run: git pull
-
-    - name: Apply stashed changes
-      run: git stash pop
-
     - name: Commit and push changes
       run: |
         git add *
